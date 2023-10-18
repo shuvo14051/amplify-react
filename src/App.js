@@ -1,13 +1,15 @@
-import "./App.css";
+import Navbar from "./Navbar";
+import Home from "./Home";
 
 function App() {
   return (
     <div className="App">
-      <h1>CS 230L</h1>
-      <h3>Section -- XX</h3>
-      <p>WVU ID: XXXXXXXXX</p>
-      <p>Hi I am XX</p>
-      <p></p>
+      {/* Navbar component */}
+      <Navbar />
+      <div className="content">
+        {/* Home component */}
+        <Home />
+      </div>
     </div>
   );
 }
