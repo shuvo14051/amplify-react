@@ -47,6 +47,10 @@ const TextForm = (props) => {
           className="form-control"
           onChange={handleOnChange}
           placeholder="Enter you text here..."
+          style={{
+            backgroundColor: props.mode === "dark" ? "#333" : "white",
+            color: props.mode === "white" ? "black" : "white",
+          }}
         ></textarea>
         <button
           className="btn btn-outline-primary mt-2"
