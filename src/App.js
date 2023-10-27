@@ -1,15 +1,15 @@
-import Navbar from "./Navbar";
-import Home from "./Home";
+import "./App.css";
+import About from "./components/About";
+import Navbar from "./components/Navbar";
+import TextForm from "./components/TextForm";
 
 function App() {
   return (
-    <div className="App">
-      {/* Navbar component */}
-      <Navbar />
-      <div className="content">
-        {/* Home component */}
-        <Home />
-      </div>
+    <div>
+      {/* <Navbar title="ShuvoBlog" /> */}
+      <Navbar title="Textutils" />
+      <TextForm headline="Enter text to analyze" />
+      <About />
     </div>
   );
 }
