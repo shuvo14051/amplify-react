@@ -36,12 +36,7 @@ function About() {
         <div className="row">
           <div className="col">
             <div className="card">
-              {/* <img
-                className="card-img-top"
-                src="hary.png"
-                alt="Card image cap"
-                style={myStyle}
-              /> */}
+              
               <div className="card-body">
                 <h5 className="card-title">Coder Harry</h5>
                 <p className="card-text">
@@ -61,12 +56,7 @@ function About() {
           </div>
           <div className="col">
             <div className="card">
-              {/* <img
-                className="card-img-top"
-                src="shuvo.png"
-                alt="Card image cap"
-                style={myStyle}
-              /> */}
+              
               <div className="card-body">
                 <h5 className="card-title">Younus Ahamed Shuvo</h5>
                 <p className="card-text">
