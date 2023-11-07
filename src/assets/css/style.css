@@ -1,8 +1,8 @@
 body {
   background-image: url("https://t4.ftcdn.net/jpg/04/85/47/27/240_F_485472761_dbWtxrJiJs29seQxmvdNbZpkWhjfz8MI.jpg");
-  /* background-repeat: no-repeat;
+  background-repeat: no-repeat;
   background-attachment: fixed;
-  background-size: cover; */
+  background-size: cover;
 }
 
 .App {
