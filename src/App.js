@@ -1,6 +1,7 @@
 import { useRef, useState } from "react";
 import "./assets/css/style.css";
 import Navbar from "./components/Navbar";
+import bg from "./assets/images/bg.jpg";
 
 function App() {
   const [task, setTask] = useState([]);
@@ -22,7 +23,7 @@ function App() {
 
   return (
     <>
-      <Navbar />
+      {/* <Navbar /> */}
       <div className="App container">
         <h1>ToDo List</h1>
         <input type="text" placeholder="Enter an item" ref={inputRef} />
@@ -30,7 +31,9 @@ function App() {
           {task.map((task, index) => (
             <li className="li-item" key={index}>
               {task}
-              <span onClick={() => removeItem(index)}>x</span>
+              <span className="text-dark" onClick={() => removeItem(index)}>
+                x
+              </span>
             </li>
           ))}
         </ul>

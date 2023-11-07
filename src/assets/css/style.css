@@ -1,3 +1,17 @@
+body {
+  background-image: url("https://images.pexels.com/photos/1764433/pexels-photo-1764433.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+body {
+  background-image: url("https://t4.ftcdn.net/jpg/04/85/47/27/240_F_485472761_dbWtxrJiJs29seQxmvdNbZpkWhjfz8MI.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
 .App {
   font-family: Arial, sans-serif;
   max-width: 400px;
@@ -20,11 +34,10 @@ input {
 
 ul {
   list-style: none;
-  padding: 0;
+  /* padding: 0; */
 }
 
 .li-item {
-  margin-top: 15px;
   margin-bottom: 5px;
 
   display: flex;
@@ -32,11 +45,26 @@ ul {
   align-items: center;
   margin-bottom: 5px;
   padding: 5px;
-  border: 1px solid #ccc;
+  border: 1px solid rgb(7, 108, 57);
   border-radius: 5px;
-  width: 50%;
-  text-align: center;
+  width: 40%;
   margin: auto;
+  margin-top: 15px;
+}
+
+.li-item:nth-child(even) {
+  background-color: lightblue;
+  color: gray;
+}
+
+.li-item:nth-child(odd) {
+  background-color: rgb(207, 124, 214);
+  color: white;
+}
+
+.li-item:hover {
+  background-color: rgb(201, 10, 77);
+  color: white;
 }
 
 button {
